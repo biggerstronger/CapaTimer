@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		509A0B902AC495FA002D8C7B /* CapaTimer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 509A0B8F2AC495FA002D8C7B /* CapaTimer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		509A0B952AC495FA002D8C7B /* CapaTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A0B942AC495FA002D8C7B /* CapaTimerApp.swift */; };
+		509A0B972AC495FA002D8C7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A0B962AC495FA002D8C7B /* ContentView.swift */; };
+		509A0B992AC495FB002D8C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509A0B982AC495FB002D8C7B /* Assets.xcassets */; };
+		509A0B9C2AC495FB002D8C7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509A0B9B2AC495FB002D8C7B /* Preview Assets.xcassets */; };
+		509A0BA62AC495FB002D8C7B /* CapaTimer_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A0BA52AC495FB002D8C7B /* CapaTimer_Watch_AppTests.swift */; };
+		509A0BB02AC495FB002D8C7B /* CapaTimer_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A0BAF2AC495FB002D8C7B /* CapaTimer_Watch_AppUITests.swift */; };
+		509A0BB22AC495FB002D8C7B /* CapaTimer_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A0BB12AC495FB002D8C7B /* CapaTimer_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		509A0B912AC495FA002D8C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509A0B832AC495F9002D8C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509A0B8E2AC495FA002D8C7B;
+			remoteInfo = "CapaTimer Watch App";
+		};
+		509A0BA22AC495FB002D8C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509A0B832AC495F9002D8C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509A0B8E2AC495FA002D8C7B;
+			remoteInfo = "CapaTimer Watch App";
+		};
+		509A0BAC2AC495FB002D8C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509A0B832AC495F9002D8C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509A0B8E2AC495FA002D8C7B;
+			remoteInfo = "CapaTimer Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		509A0BB82AC495FB002D8C7B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				509A0B902AC495FA002D8C7B /* CapaTimer Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		509A0B892AC495FA002D8C7B /* CapaTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapaTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		509A0B8F2AC495FA002D8C7B /* CapaTimer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CapaTimer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		509A0B942AC495FA002D8C7B /* CapaTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapaTimerApp.swift; sourceTree = "<group>"; };
+		509A0B962AC495FA002D8C7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		509A0B982AC495FB002D8C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		509A0B9B2AC495FB002D8C7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		509A0BA12AC495FB002D8C7B /* CapaTimer Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CapaTimer Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		509A0BA52AC495FB002D8C7B /* CapaTimer_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapaTimer_Watch_AppTests.swift; sourceTree = "<group>"; };
+		509A0BAB2AC495FB002D8C7B /* CapaTimer Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CapaTimer Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		509A0BAF2AC495FB002D8C7B /* CapaTimer_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapaTimer_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		509A0BB12AC495FB002D8C7B /* CapaTimer_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapaTimer_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		509A0B8C2AC495FA002D8C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A0B9E2AC495FB002D8C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A0BA82AC495FB002D8C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		509A0B822AC495F9002D8C7B = {
+			isa = PBXGroup;
+			children = (
+				509A0B932AC495FA002D8C7B /* CapaTimer Watch App */,
+				509A0BA42AC495FB002D8C7B /* CapaTimer Watch AppTests */,
+				509A0BAE2AC495FB002D8C7B /* CapaTimer Watch AppUITests */,
+				509A0B8A2AC495FA002D8C7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		509A0B8A2AC495FA002D8C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				509A0B892AC495FA002D8C7B /* CapaTimer.app */,
+				509A0B8F2AC495FA002D8C7B /* CapaTimer Watch App.app */,
+				509A0BA12AC495FB002D8C7B /* CapaTimer Watch AppTests.xctest */,
+				509A0BAB2AC495FB002D8C7B /* CapaTimer Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		509A0B932AC495FA002D8C7B /* CapaTimer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				509A0B942AC495FA002D8C7B /* CapaTimerApp.swift */,
+				509A0B962AC495FA002D8C7B /* ContentView.swift */,
+				509A0B982AC495FB002D8C7B /* Assets.xcassets */,
+				509A0B9A2AC495FB002D8C7B /* Preview Content */,
+			);
+			path = "CapaTimer Watch App";
+			sourceTree = "<group>";
+		};
+		509A0B9A2AC495FB002D8C7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				509A0B9B2AC495FB002D8C7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		509A0BA42AC495FB002D8C7B /* CapaTimer Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				509A0BA52AC495FB002D8C7B /* CapaTimer_Watch_AppTests.swift */,
+			);
+			path = "CapaTimer Watch AppTests";
+			sourceTree = "<group>";
+		};
+		509A0BAE2AC495FB002D8C7B /* CapaTimer Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				509A0BAF2AC495FB002D8C7B /* CapaTimer_Watch_AppUITests.swift */,
+				509A0BB12AC495FB002D8C7B /* CapaTimer_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "CapaTimer Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		509A0B882AC495FA002D8C7B /* CapaTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509A0BB92AC495FB002D8C7B /* Build configuration list for PBXNativeTarget "CapaTimer" */;
+			buildPhases = (
+				509A0B872AC495FA002D8C7B /* Resources */,
+				509A0BB82AC495FB002D8C7B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				509A0B922AC495FA002D8C7B /* PBXTargetDependency */,
+			);
+			name = CapaTimer;
+			productName = CapaTimer;
+			productReference = 509A0B892AC495FA002D8C7B /* CapaTimer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		509A0B8E2AC495FA002D8C7B /* CapaTimer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509A0BB52AC495FB002D8C7B /* Build configuration list for PBXNativeTarget "CapaTimer Watch App" */;
+			buildPhases = (
+				509A0B8B2AC495FA002D8C7B /* Sources */,
+				509A0B8C2AC495FA002D8C7B /* Frameworks */,
+				509A0B8D2AC495FA002D8C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CapaTimer Watch App";
+			productName = "CapaTimer Watch App";
+			productReference = 509A0B8F2AC495FA002D8C7B /* CapaTimer Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		509A0BA02AC495FB002D8C7B /* CapaTimer Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509A0BBC2AC495FB002D8C7B /* Build configuration list for PBXNativeTarget "CapaTimer Watch AppTests" */;
+			buildPhases = (
+				509A0B9D2AC495FB002D8C7B /* Sources */,
+				509A0B9E2AC495FB002D8C7B /* Frameworks */,
+				509A0B9F2AC495FB002D8C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				509A0BA32AC495FB002D8C7B /* PBXTargetDependency */,
+			);
+			name = "CapaTimer Watch AppTests";
+			productName = "CapaTimer Watch AppTests";
+			productReference = 509A0BA12AC495FB002D8C7B /* CapaTimer Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		509A0BAA2AC495FB002D8C7B /* CapaTimer Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509A0BBF2AC495FB002D8C7B /* Build configuration list for PBXNativeTarget "CapaTimer Watch AppUITests" */;
+			buildPhases = (
+				509A0BA72AC495FB002D8C7B /* Sources */,
+				509A0BA82AC495FB002D8C7B /* Frameworks */,
+				509A0BA92AC495FB002D8C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				509A0BAD2AC495FB002D8C7B /* PBXTargetDependency */,
+			);
+			name = "CapaTimer Watch AppUITests";
+			productName = "CapaTimer Watch AppUITests";
+			productReference = 509A0BAB2AC495FB002D8C7B /* CapaTimer Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		509A0B832AC495F9002D8C7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					509A0B882AC495FA002D8C7B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					509A0B8E2AC495FA002D8C7B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					509A0BA02AC495FB002D8C7B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 509A0B8E2AC495FA002D8C7B;
+					};
+					509A0BAA2AC495FB002D8C7B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 509A0B8E2AC495FA002D8C7B;
+					};
+				};
+			};
+			buildConfigurationList = 509A0B862AC495F9002D8C7B /* Build configuration list for PBXProject "CapaTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 509A0B822AC495F9002D8C7B;
+			productRefGroup = 509A0B8A2AC495FA002D8C7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				509A0B882AC495FA002D8C7B /* CapaTimer */,
+				509A0B8E2AC495FA002D8C7B /* CapaTimer Watch App */,
+				509A0BA02AC495FB002D8C7B /* CapaTimer Watch AppTests */,
+				509A0BAA2AC495FB002D8C7B /* CapaTimer Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		509A0B872AC495FA002D8C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A0B8D2AC495FA002D8C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509A0B9C2AC495FB002D8C7B /* Preview Assets.xcassets in Resources */,
+				509A0B992AC495FB002D8C7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A0B9F2AC495FB002D8C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A0BA92AC495FB002D8C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		509A0B8B2AC495FA002D8C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509A0B972AC495FA002D8C7B /* ContentView.swift in Sources */,
+				509A0B952AC495FA002D8C7B /* CapaTimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A0B9D2AC495FB002D8C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509A0BA62AC495FB002D8C7B /* CapaTimer_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509A0BA72AC495FB002D8C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509A0BB02AC495FB002D8C7B /* CapaTimer_Watch_AppUITests.swift in Sources */,
+				509A0BB22AC495FB002D8C7B /* CapaTimer_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		509A0B922AC495FA002D8C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 509A0B8E2AC495FA002D8C7B /* CapaTimer Watch App */;
+			targetProxy = 509A0B912AC495FA002D8C7B /* PBXContainerItemProxy */;
+		};
+		509A0BA32AC495FB002D8C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 509A0B8E2AC495FA002D8C7B /* CapaTimer Watch App */;
+			targetProxy = 509A0BA22AC495FB002D8C7B /* PBXContainerItemProxy */;
+		};
+		509A0BAD2AC495FB002D8C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 509A0B8E2AC495FA002D8C7B /* CapaTimer Watch App */;
+			targetProxy = 509A0BAC2AC495FB002D8C7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		509A0BB32AC495FB002D8C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		509A0BB42AC495FB002D8C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		509A0BB62AC495FB002D8C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CapaTimer Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CapaTimer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyakhuyakproduction.CapaTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		509A0BB72AC495FB002D8C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CapaTimer Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CapaTimer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyakhuyakproduction.CapaTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		509A0BBA2AC495FB002D8C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = CapaTimer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyakhuyakproduction.CapaTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		509A0BBB2AC495FB002D8C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = CapaTimer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyakhuyakproduction.CapaTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		509A0BBD2AC495FB002D8C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyakhuyakproduction.CapaTimer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapaTimer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapaTimer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		509A0BBE2AC495FB002D8C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyakhuyakproduction.CapaTimer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapaTimer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapaTimer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		509A0BC02AC495FB002D8C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyakhuyakproduction.CapaTimer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CapaTimer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		509A0BC12AC495FB002D8C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyakhuyakproduction.CapaTimer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CapaTimer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		509A0B862AC495F9002D8C7B /* Build configuration list for PBXProject "CapaTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A0BB32AC495FB002D8C7B /* Debug */,
+				509A0BB42AC495FB002D8C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509A0BB52AC495FB002D8C7B /* Build configuration list for PBXNativeTarget "CapaTimer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A0BB62AC495FB002D8C7B /* Debug */,
+				509A0BB72AC495FB002D8C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509A0BB92AC495FB002D8C7B /* Build configuration list for PBXNativeTarget "CapaTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A0BBA2AC495FB002D8C7B /* Debug */,
+				509A0BBB2AC495FB002D8C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509A0BBC2AC495FB002D8C7B /* Build configuration list for PBXNativeTarget "CapaTimer Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A0BBD2AC495FB002D8C7B /* Debug */,
+				509A0BBE2AC495FB002D8C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509A0BBF2AC495FB002D8C7B /* Build configuration list for PBXNativeTarget "CapaTimer Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A0BC02AC495FB002D8C7B /* Debug */,
+				509A0BC12AC495FB002D8C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 509A0B832AC495F9002D8C7B /* Project object */;
+}
